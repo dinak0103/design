@@ -150,28 +150,8 @@ img {
   font-size: var(--h4-font-size);
 }
 
-/* Navigation for mobile devices */
-@media screen and (max-width: 767px) {
-  .nav__menu {
-    display: none;
-  }
-}
-
-.nav__list {
-  display: flex;
-  gap: 2rem;
-}
-
-.nav__link {
-  color: var(--text-color);
-  font-family: var(--body-font);
-  font-weight: var(--font-medium);
-  font-size: var(--normal-font-size);
-  transition: color .4s;
-}
-
-.nav__link:hover {
-  color: var(--first-color);
+.top__row p {
+  font-size: 8px;
 }
 
 
@@ -405,50 +385,21 @@ img {
 
 
 /*=============== SERVICES ===============*/
-.service__card {
-  text-align: center;
-  background-color: #fff;
-  outline: 4px solid #fff;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border-radius: 16px;
-}
-
-.image__block1 {
-  background-color: var(--body-color);
+.skills {
   display: flex;
-  padding: 32px 32px 0;
-  justify-content: center;
-  gap: 3rem;
-}
-
-.image__block {
-  background-color: var(--body-color);
-  display: flex;
-  padding: 32px 32px 0;
+  flex-wrap: wrap;
+  gap: .5rem;
   justify-content: center;
 }
 
-
-.service__img {
-  outline: 2px solid #fff;
-  border-radius: 8px 8px  0 0;
-} 
-
-.app__img {
-  width: 100px;
-  border-radius: 8px;
+.skill__tab {
+  border: 4px solid #ffff;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
 }
 
-.service__heading {
-  padding: 24px;
-  z-index: 100;
-}
 
-.service__title {
-  font-family: var(--title-font);
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-semi-bold);
-}
+
 
 
 /*=============== CONTACT ===============*/
@@ -588,6 +539,10 @@ img {
 
   .socials {
     justify-self: end;
+  }
+
+  .top__row p {
+    font-size: 10px;
   }
  
 }
