@@ -198,17 +198,17 @@ img {
 }
 
 .green__circle {
-  background-color: #17EF46;
+  background-color: #00CA48;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  box-shadow: 0px 0px 1px 1px #17EF46;
+  box-shadow: 0px 0px 1px 1px #00CA48;
   animation: pulse-animation 1s infinite;
 }
 
 @keyframes pulse-animation {
   0% {
-    box-shadow: 0 0 0 0px #45f36b;
+    box-shadow: 0 0 0 0px #00CA48;
   }
   100% {
     box-shadow: 0 0 0 6px rgba(0, 0, 0, 0);
