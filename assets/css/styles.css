@@ -6,8 +6,8 @@
 :root {
   --header-height: 3.5rem;
 
-  --first-color: #0099FF;
-  --first-color-alt: #488FF9;
+  --first-color: #FFC900;
+  --first-color-alt: #FBC601;
   --title-color: #000000;
   --text-color: #07111D;
   --text-color-alt: rgb(0, 36, 57);
@@ -177,7 +177,7 @@ img {
   width: 56px;
   justify-self: center;
   border-radius: 100%;
-  outline: 4px solid #ffffff;
+  outline: 2px solid #ffffff;
   box-shadow: rgba(44, 44, 44, 0.2) 0px 2px 8px 0px;
 }
 
@@ -251,21 +251,21 @@ img {
 }
 
 .home__img3 {
-  margin-top: 70px;
-}
-
-.home__img4 {
   margin-top: 40px;
 }
 
-.home__img5 {
+.home__img4 {
   margin-top: 85px;
+}
+
+.home__img5 {
+  margin-top: 70px;
 }
 
 /*=============== BUTTON ===============*/
 .small__button {
   background-color: var(--first-color);
-  color: #fff;
+  color: var(--text-color);
   font-family: var(--title-font);
   font-size: var(--small-font-size); 
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -276,7 +276,7 @@ img {
 
 .button {
   background-color: var(--first-color);
-  color: #fff;
+  color: var(--text-color);
   font-family: var(--title-font); 
   font-size: var(--button-font-size);
   padding: 16px;
